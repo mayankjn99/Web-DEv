@@ -1,4 +1,18 @@
-.root {
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Sets a clean font for your app */
+    background-color: #f4f4f4; /* Light grey background */
     display: flex;
-    flex-direction: column;
+    justify-content: center; /* Center horizontally */
+    min-height: 100vh; /* Full viewport height to center the .todo-app */
+}
+
+/* Main Todo App container styles */
+.todo-app {
+    width: 100%;
+    max-width: 600px; /* Ensures the app doesn't stretch too wide */
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1); 
+    /* Optional: Adds shadow for better visibility */
 }

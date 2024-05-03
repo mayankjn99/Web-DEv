@@ -12,9 +12,13 @@ Currently, two official plugins are available:
 
 - npm create vite@latest ToDo --template react
 - npm install
+- npm install react-icons
 
 For redux installation
 
 # Start the app 
 
 - npm run dev   
+
+
+- rfce to create a functional component 
