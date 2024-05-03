@@ -13,6 +13,7 @@ Currently, two official plugins are available:
 - npm create vite@latest ToDo --template react
 - npm install
 - npm install react-icons
+- npm install antd
 
 For redux installation
 
@@ -20,5 +21,6 @@ For redux installation
 
 - npm run dev   
 
+# helper commands
 
 - rfce to create a functional component 
