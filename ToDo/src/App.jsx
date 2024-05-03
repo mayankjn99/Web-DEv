@@ -15,7 +15,7 @@ function App() {
 
   // console.log('todos', todos)
   return (
-    <div className="root">
+    <div className="todo-app">
       <AddItem addTodos={addTodos}/>
       <TodoList todos={todos}/>
     </div>
