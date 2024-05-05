@@ -24,3 +24,5 @@ For redux installation
 # helper commands
 
 - rfce to create a functional component 
+
+- https://jsonplaceholder.typicode.com/  for fake data 
