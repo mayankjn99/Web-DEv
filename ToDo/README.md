@@ -14,6 +14,7 @@ Currently, two official plugins are available:
 - npm install
 - npm install react-icons
 - npm install antd
+- npm install -D sass
 
 For redux installation
 
