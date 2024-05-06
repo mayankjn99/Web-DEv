@@ -1,0 +1,25 @@
+.tree {
+    margin-left: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.tree-node {
+    margin-left: 10px;
+}
+
+.node-label {
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.node-children {
+    margin-left: 15px;
+    border-left: 1px solid #ccc;
+    padding-left: 5px;
+}
+
+.node-label-file {
+    font-size: bold;
+    margin-bottom: 5px;
+}
