@@ -1,0 +1,53 @@
+.parent {
+    background-color: blue; 
+    width: 400px;
+    height: 400px;
+}
+// css using transition
+// .child {
+//     background-color: red;
+//     height: 50%;
+//     width: 50%;
+//     transition: transform 1s cubic-bezier(0.65,-1.37, 0.38, 3.02) 3s;
+// }
+
+// .parent:hover .child {
+//     background-color: green;
+//     transform: translateX(100%);
+    
+// }
+
+.child {
+    background-color: red;
+    height: 50%;
+    width: 50%;
+    animation: left-right 1s forwards infinite alternate; // name , duration timing function animation mode fill  delay repeat direction 
+
+}
+// define animation and keyframe to have a effect on that element
+.parent:hover .child {
+    animation-play-state: paused;
+    
+}
+
+// animation define how the transition is going to happen 
+// keyframe define what should happen 
+
+@keyframes left-right {
+    0% {
+        background-color: red;
+    }
+    33% {
+        transform: translateY(100%);
+    }
+
+    66% {
+        transform: translateY(100%) translateX(100%);
+    }
+
+    100%{
+        background-color: green;
+        transform: translateX(100%);
+    }
+}
+

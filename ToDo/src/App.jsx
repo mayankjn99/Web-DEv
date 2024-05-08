@@ -5,6 +5,7 @@ import SearchBar from './components/PaginatedSearch'
 import Tree from './components/Tree'
 import AudioPlayer from './components/AudioPlayer'
 import { useState } from 'react'
+import Animation from './components/Animation'
 
 function App() {
   const [audioSrc, setAudioSrc] = useState('');
@@ -16,6 +17,7 @@ function App() {
       <Route path='/search-bar' element={<SearchBar/>}/>
       <Route path='/tree-structure' element={<Tree/>}/>
       <Route path='/audio-player' element={<AudioPlayer audioSrc={audioSrc} setAudioSrc={setAudioSrc}/>}/>
+      <Route path='/animations' element={<Animation/>}/> 
     </Routes>
 
     
