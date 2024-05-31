@@ -41,3 +41,21 @@ const classDetails = {
   
   const {strength, benches,blackBoard} = classDetails;
   console.log(strength, benches,blackBoard); // 78 39 1
+
+  const obj5 = {name: 'asdk'}
+  const obj2 = {name: 'poq'}
+
+  console.log('obj1', obj5)
+
+  var obj10 = {
+    address : "Mumbai,India",
+    getAddress: function(){
+    console.log(this.address); 
+  }
+}
+   
+var getAddress = obj10.getAddress;
+console.log('get', getAddress)
+// error in this code
+// var obj20 = {name:"akshay", address: 'a'};
+// obj20.getAddress();    
